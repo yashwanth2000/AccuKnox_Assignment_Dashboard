@@ -28,10 +28,10 @@ const Category = ({ category, onAddWidget }) => {
 				<button
 					type="button"
 					onClick={handleAddWidget}
-					className="bg-white p-6 rounded-lg border-2 border-dashed border-gray-200 flex flex-col items-center justify-center min-h-[200px] hover:border-gray-300 cursor-pointer transition-colors text-gray-400"
+					className="bg-white p-6 rounded-lg border-2 border-dashed border-gray-200 flex gap-2 items-center justify-center min-h-[200px] hover:border-gray-300 cursor-pointer transition-colors text-gray-400"
 				>
-					<Plus size={24} className="mb-2" />
-					<span className="text-sm font-medium">Add Widget</span>
+					<Plus size={20} />
+					<span className="text-lg font-medium">Add Widget</span>
 				</button>
 			</div>
 		</div>

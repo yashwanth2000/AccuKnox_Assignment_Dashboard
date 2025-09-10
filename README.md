@@ -1,12 +1,38 @@
-# React + Vite
+# Dynamic Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based dynamic dashboard** where users can manage widgets across different categories.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Dynamic Widget Management**: Add and remove widgets from categories  
+- **Search Functionality**: Search across all widgets  
+- **Responsive Design**: Works on desktop and mobile  
+- **State Management**: Redux for persistent state  
+- **Modern UI**: Tailwind CSS for styling  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Setup Instructions
 
-## Expanding the ESLint configuration
+### 1. Prerequisites
+Make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/)  
+- [npm](https://www.npmjs.com/)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### 2. Clone the Repository
+```bash
+git clone https://github.com/yashwanth2000/AccuKnox_Assignment_Dashboard.git
+cd AccuKnox_Assignment_Dashboard
+````
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the Application
+
+```bash
+npm run dev
+```
+
+The app should now be running at [http://localhost:5173](http://localhost:5173)
